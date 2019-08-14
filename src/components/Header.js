@@ -1,6 +1,10 @@
 import React from 'react';
+import { connect } from 'react-redux';
+
+// import { }
 
 const Header = props => {
+
   return (
     <>
       <figure className="image is-128x128">
@@ -10,6 +14,7 @@ const Header = props => {
       <p>Amount: ${props.car.price}</p>
     </>
   );
+  
 };
 
 export default Header;
